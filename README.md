@@ -47,7 +47,7 @@ Follow these steps to set up the project on your local machine:
 
 ```bash
 git clone https://github.com/Deepanshu-Raghuwanshi/Event-Management1.git
-cd event-management-system
+cd Event-Management1
 ```
 
 2. **Install dependencies**
