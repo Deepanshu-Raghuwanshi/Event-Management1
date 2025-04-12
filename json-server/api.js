@@ -1,8 +1,7 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_BE_API_URL;
-
-//|| "http://localhost:3001";
+// API URL can be configured based on environment
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3001";
 
 // Event API calls
 export const getEvents = async () => {
